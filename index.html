@@ -1,0 +1,148 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Gaan-Bajna</title>
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <nav>
+      <ul>
+        <li class="divicon logo">
+          <img src="./logo.jpg" alt="logo" /> Gaan-Bajna
+        </li>
+        <li>Home</li>
+        <li>About</li>
+      </ul>
+    </nav>
+    <div class="container" id="gaans">
+      <div class="songlist">
+        <h1>When I'm broken</h1>
+        <div class="songitem">
+          <img src="./srotosini.jpg" alt="srotoshini" />
+          <span style="margin: 0px 15px" id="songitemname">Srotoshini</span>
+          <span class="songlistplay"
+            >03:56
+            <i
+              class="divicon smallicon fa-sharp fa-regular fa-circle-play"
+              id="1"
+            >
+            </i
+          ></span>
+        </div>
+        <div class="songitem">
+          <img src="./Bishonnosundor.jpeg" alt="Bishonnosundor" />
+          <span style="margin: 0px 15px" id="songitemname"
+            >Bishonno Sundor</span
+          >
+          <span class="songlistplay"
+            >05:56
+            <i
+              class="divicon smallicon fa-sharp fa-regular fa-circle-play"
+              id="2"
+            >
+            </i
+          ></span>
+        </div>
+        <div class="songitem">
+          <img src="./Choolo.jpeg" alt="Choolo" />
+          <span style="margin: 0px 15px" id="songitemname">Choo Lo</span>
+          <span class="songlistplay"
+            >04:12
+            <i
+              class="divicon smallicon fa-sharp fa-regular fa-circle-play"
+              id="3"
+            >
+            </i
+          ></span>
+        </div>
+        <div class="songitem">
+          <img src="./ghum.jpeg" alt="ghum" style="height: 40px" />
+          <span style="margin: 0px 15px" id="songitemname">Ghum</span>
+          <span class="songlistplay"
+            >03:50
+            <i
+              class="divicon smallicon fa-sharp fa-regular fa-circle-play"
+              id="4"
+            >
+            </i
+          ></span>
+        </div>
+        <div class="songitem">
+          <img src="./AnotherLove.jpeg" alt="AnotherLove" />
+          <span style="margin: 0px 15px" id="songitemname">Another Love</span>
+          <span class="songlistplay"
+            >04:01
+            <i
+              class="divicon smallicon fa-sharp fa-regular fa-circle-play"
+              id="5"
+            >
+            </i
+          ></span>
+        </div>
+        <div class="songitem">
+          <img src="./Dehokhan.jpeg" alt="Dehokhan" />
+          <span style="margin: 0px 15px" id="songitemname">Dehokhan</span>
+          <span class="songlistplay"
+            >07:10
+            <i
+              class="divicon smallicon fa-sharp fa-regular fa-circle-play"
+              id="6"
+            >
+            </i
+          ></span>
+        </div>
+      </div>
+
+      <div class="songlogo"></div>
+    </div>
+    <div class="bottom">
+      <input
+        type="range"
+        name="range"
+        id="progressbar"
+        min="0"
+        max="100"
+        value="0"
+      />
+      <div class="icons">
+        <!-- font awesome icons -->
+        <i class="divicon fa-sharp fa-solid fa-2x fa-backward" id="previous">
+        </i>
+        <i class="divicon fa-sharp fa-regular fa-2x fa-circle-play" id="play">
+        </i>
+        <i class="divicon fa-sharp fa-solid fa-2x fa-forward" id="next"> </i>
+        <!-- <i class="fa-sharp fa-regular fa-volume"> </i> -->
+        <i class="fa-solid fa-volume-high" style="color: #fcfcfd" id="vol"></i>
+        <input
+          type="range"
+          name="volume"
+          id="volume"
+          min="0"
+          max="1"
+          step=".01"
+          value="1"
+        />
+      </div>
+      <div class="songinfo" id="songinfo">
+        <img
+          src="playing.gif"
+          alt="gif"
+          width="60px"
+          style="margin-right: 1vw; margin-top: 30px"
+          id="gif"
+        />
+        <!-- <span class="nickname" id="nickname" style="position: unset"
+          >Srotoshini</span
+        > -->
+      </div>
+    </div>
+    <div class="end"></div>
+    <script
+      src="https://kit.fontawesome.com/1084ece6f7.js"
+      crossorigin="anonymous"
+    ></script>
+    <script src="script.js"></script>
+  </body>
+</html>

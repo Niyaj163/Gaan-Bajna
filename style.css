@@ -1,0 +1,137 @@
+@import url("https://fonts.googleapis.com/css2?family=Sedan+SC&display=swap");
+/* font-family: "Sedan SC", serif; */
+@import url("https://fonts.googleapis.com/css2?family=Arimo:ital,wght@0,400..700;1,400..700&display=swap");
+/* font-family: "Arimo", sans-serif; */
+
+body {
+  background-color: lemonchiffon;
+}
+
+* {
+  margin: 0;
+  padding: 0;
+}
+
+nav {
+  font-family: "Arimo", sans-serif;
+  color: white;
+}
+
+nav ul {
+  display: flex;
+  align-items: center;
+  list-style-type: none;
+  height: 55px;
+  background-color: rgb(5, 30, 73);
+}
+
+nav ul li {
+  padding: 0 10px;
+  cursor: default;
+}
+
+.logo img {
+  height: 55px;
+  width: 70px;
+  padding: 0 5px;
+}
+
+.logo {
+  display: flex;
+  align-items: center;
+  font-weight: bolder;
+  font-size: 1.2rem;
+  font-family: "Sedan SC", serif;
+}
+
+.container {
+  position: relative;
+  height: 72vh;
+  background-color: black;
+  color: white;
+  display: flex;
+  margin: 20px auto;
+  width: 75%;
+  font-family: "Arimo", sans-serif;
+  border-radius: 10px;
+  padding: 10px;
+  background-image: url("bg.jpg");
+  background-size: cover;
+}
+
+.bottom {
+  height: 11vh;
+  background-color: rgb(5, 30, 73);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  color: white;
+  flex-direction: column;
+}
+
+.icons {
+  margin-top: 10px;
+  cursor: pointer;
+}
+
+.icons i {
+  padding: 0px 15px;
+}
+
+#progressbar {
+  width: 70%;
+  accent-color: crimson;
+  cursor: pointer;
+}
+
+.end {
+  height: 1vh;
+  background-color: black;
+}
+
+.songitem {
+  position: relative;
+  height: 60px;
+  display: flex;
+  background-color: white;
+  color: black;
+  margin: 12px 0px;
+  align-items: center;
+  border-radius: 10px;
+  cursor: pointer;
+  justify-content: space-between;
+}
+
+.songitem img {
+  width: 60px;
+  margin: 0 10px;
+}
+
+.songlist {
+  width: 400px;
+  position: relative;
+}
+.songlistplay {
+  padding: 30px;
+}
+
+.songinfo {
+  position: absolute;
+  left: 15vw;
+  font-size: larger;
+  opacity: 1;
+}
+
+#volume {
+  cursor: pointer;
+  position: absolute;
+  right: 250px;
+  top: 96%;
+  height: 5px;
+}
+
+#vol {
+  position: absolute;
+  right: 375px;
+  top: 95%;
+}
